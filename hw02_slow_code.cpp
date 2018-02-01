@@ -8,6 +8,9 @@
 #include <vector>
 #include <math.h>
 
+void get_walltime(double* wcTime);
+void myfunc(std::vector<std::vector<double> > &v_s, 
+	std::vector<std::vector<double> > &v_mat, std::vector<int> &i_v);
 
 void get_walltime(double* wcTime) {
 
